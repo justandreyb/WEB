@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="Improve your account in popular social networks">
+        <meta name="author" content="Andrey B.">
+        <link rel="icon" href="img/main.ico">
+
+        <title>PlusAcc</title>
+
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">  
+        <link href="css/style-register.css" rel="stylesheet">  
+    </head>
+
+    <body>
+        <div class="navbar-wrapper">
+            <div class="container" id="navigation">
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="home.html"><img src="img/logo-min.png"></a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="home.html"><i class="glyphicon glyphicon-home"></i></a></li>
+                                <li><a href="news.html">Новости</a></li>
+                                <li><a href="#about">О нас</a></li>
+                                <li><a href="gethelp.html">Поддержка</a></li>
+                                <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Аккаунт <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="register.html">Зарегестрироваться</a></li>
+                                    <li><a href="login.html">Войти</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">%name</li>
+                                    <li><a href="#">Учетная запись</a></li>
+                                    <li><a href="#">Статистика</a></li>
+                                    <li><a href="#">Настройки</a></li>
+                                    <li><a href="#">Выйти</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+            <form class="form-horizontal" role="form">
+                <h2>Регистрация нового пользователя :</h2>
+                <br>
+                <div class="form-group">
+                    <label for="firstName" class="col-sm-3 control-label">Ник</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="nickname" placeholder="Никнейм" class="form-control" autofocus>
+                        <span class="help-block">Пример: justandreyb, karatel99</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Пароль</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" placeholder="Пароль" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Подтверждение пароля</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" placeholder="Пароль" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate" class="col-sm-3 control-label">Дата рождения</label>
+                    <div class="col-sm-9">
+                        <input type="date" id="birthDate" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country" class="col-sm-3 control-label">Страна</label>
+                    <div class="col-sm-9">
+                        <select id="country" class="form-control">
+                            <option>Беларусь</option>
+                            <option>Россия</option>
+                            <option>Другая</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Пол</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="femaleRadio" value="Female">Женский
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="maleRadio" value="Male">Мужской
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="uncknownRadio" value="Unknown">Скрыт
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">Я согласен с <a href="#">правилами</a>
+                            </label>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <button type="submit" class="btn btn-primary btn-block">Зарегестрироваться</button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <h4>Уже зарегестрированы? <a href="login.html">Войти</a>.</h4>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>

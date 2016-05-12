@@ -1,0 +1,17 @@
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+#headerReg {
+    margin-bottom: 10;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        max-width: inherit;
+	} 
+}
