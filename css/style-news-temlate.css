@@ -1,48 +1,17 @@
-@media only screen and (max-width: 767px) {
-    #Marketing {
-        margin-top: 70px;
-    }
-}
 
-.navbar-wrapper {
-    background-color:rgba(255,255,255,0.50) !important;
-}
-
-#navigation {
-    margin-bottom: 50px;
-}
-
-.navbar-brand {
-    padding-top: 0px;
-    padding-left: 10px;
-}
-
-#slider-text-black {
-    color: #333333;
-}
-
-.marketing {
-    margin-top: 20px;
-}
-
-#footer {
-    padding-top: 60px;
-}
-
-
-/* .header {
+.header {
     line-height: 40px;
     font-size: 30px;
     font-family: 'Open Sans', arial, sans-serif;
     height: auto;
     overflow: hidden;
-} */
+}
 
-#news-template {
+header {
     border-bottom: 1px solid gray;
 }
 
-#news-template-h1 {
+h1 {
     color: #222222;
     font-weight: normal;
 }

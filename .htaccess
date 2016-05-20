@@ -1,1 +1,12 @@
+
 AddDefaultCharset utf8
+Options All -Indexes
+<Files ~ "\.(htaccess|tpl)$">
+	Deny from all
+</Files>
+
+ErrorDocument 500 "500 Internal Server Error" 
+ErrorDocument 404 "404 Page not found" 
+ErrorDocument 401 "401 Error"
+ErrorDocument 403 "403 Error" 
+ErrorDocument 400 "400 Bad request"

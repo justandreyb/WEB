@@ -29,21 +29,21 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="home.html"><img src="img/logo-min.png"></a>
+                            <a class="navbar-brand" href="index.php"><img src="img/logo-min.png"></a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="home.html"><i class="glyphicon glyphicon-home"></i></a></li>
-                                <li class="active"><a href="#news">Новости</a></li>
-                                <li><a href="#about">О нас</a></li>
-                                <li><a href="gethelp.html">Поддержка</a></li>
+                                <li><a href="index.php"><i class="glyphicon glyphicon-home"></i></a></li>
+                                <li class="active"><a href="news.php">Новости</a></li>
+                                <li><a href="about.php">О нас</a></li>
+                                <li><a href="gethelp.php">Поддержка</a></li>
                                 <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Аккаунт <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="register.html">Зарегестрироваться</a></li>
-                                    <li><a href="login.html">Войти</a></li>
+                                    <li><a href="registration.php">Зарегестрироваться</a></li>
+                                    <li><a href="login.php">Войти</a></li>
                                     <li role="separator" class="divider"></li>
-                                    <li class="dropdown-header">%name</li>
+                                    <li class="dropdown-header">Guest</li>
                                     <li><a href="#">Учетная запись</a></li>
                                     <li><a href="#">Статистика</a></li>
                                     <li><a href="#">Настройки</a></li>
